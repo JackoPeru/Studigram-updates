@@ -1,16 +1,15 @@
 {
-  "versionCode": 10001,
-  "versionName": "1.0.0",
-  "tagName": "autoupdate-10001",
-  "apkUrl": "https://github.com/JackoPeru/Studigram-updates/releases/download/autoupdate-10001/Studigram-1.0.0-android.apk",
-  "assetName": "Studigram-1.0.0-android.apk",
-  "assetSize": 3288724,
-  "sha256": "d6cf7d027a3ae8b567b01adc3ccd62c164a312d3c4530d3886815873797f9ddf",
-  "publishedAt": "2026-10-27T15:52:53Z",
+  "versionCode": 10002,
+  "versionName": "1.0.1",
+  "tagName": "autoupdate-10002",
+  "apkUrl": "https://github.com/JackoPeru/Studigram-updates/releases/download/autoupdate-10002/Studigram-1.0.1-android.apk",
+  "assetName": "Studigram-1.0.1-android.apk",
+  "assetSize": 3288728,
+  "sha256": "4f213412196ad7c477caf9ae4c2ced06dc9b43ff7d882432884d9ab0dd8fc648",
+  "publishedAt": "2026-10-27T16:06:21Z",
   "notes": [
-    "Studigram 1.0.0 (10001)",
-    "Prima release pubblica: APK firmata con keystore permanente",
-    "Sistema di update in-app: check feed pubblico, download, verifica firma, install",
-    "Verifica fail-closed: package/versionCode/sha256/firma devono coincidere"
+    "Studigram 1.0.1 (10002)",
+    "Hotfix verificatore: getter SigningInfo e reject senza ambigui, publishing asset canonico",
+    "Release di test per il ciclo di update (banner + download + install)"
   ]
 }
