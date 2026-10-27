@@ -4,8 +4,8 @@
   "tagName": "autoupdate-10003",
   "apkUrl": "https://github.com/JackoPeru/Studigram-updates/releases/download/autoupdate-10003/Studigram-1.0.2-android.apk",
   "assetName": "Studigram-1.0.2-android.apk",
-  "assetSize": 3289648,
-  "sha256": "dc8ae52a99d33715b044ba35fff5751fd44588c798f6cde2245e578c98973426",
+  "assetSize": 3289720,
+  "sha256": "94144be9a0522b265464e395e70d7e7ef4a05a1d9becc8d58a528562b5d6c899",
   "publishedAt": "2026-10-27T19:05:42Z",
   "notes": [
     "Studio 1.0.2 (10003): navigazione back Android corretta, fix verifica APK in-app."
