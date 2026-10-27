@@ -1,13 +1,18 @@
 {
-  "versionCode": 10003,
-  "versionName": "1.0.2",
-  "tagName": "autoupdate-10003",
-  "apkUrl": "https://github.com/JackoPeru/Studigram-updates/releases/download/autoupdate-10003/Studigram-1.0.2-android.apk",
-  "assetName": "Studigram-1.0.2-android.apk",
-  "assetSize": 3289720,
-  "sha256": "94144be9a0522b265464e395e70d7e7ef4a05a1d9becc8d58a528562b5d6c899",
-  "publishedAt": "2026-10-27T19:05:42Z",
+  "versionCode": 10004,
+  "versionName": "1.0.3",
+  "tagName": "autoupdate-10004",
+  "apkUrl": "https://github.com/JackoPeru/Studigram-updates/releases/download/autoupdate-10004/Studigram-1.0.3-android.apk",
+  "assetName": "Studigram-1.0.3-android.apk",
+  "assetSize": 4631028,
+  "sha256": "435485fc066ac05d6b8610bd47daff5fc946ab87253177e1faeb2c0340b7b27d",
+  "publishedAt": "2026-10-27T22:04:01Z",
   "notes": [
-    "Studio 1.0.2 (10003): navigazione back Android corretta, fix verifica APK in-app."
+    "Icona app Studigram (S + play, viola) — prima il template Capacitor",
+    "Pagina creator: i 3 account sono raggiungibili (tap su autore o da Profilo)",
+    "Reel che si aprono da griglie Salvati/Profilo/creator (full-screen)",
+    "Pull-to-refresh sul feed",
+    "Fix: notifiche agente, stats profilo, paginazione topic, delete commenti, stato offline",
+    "Backend: upload cap 500MB, HEVC trascodato in H.264, query feed in singolo join"
   ]
 }
