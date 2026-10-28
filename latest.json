@@ -1,17 +1,15 @@
 {
-  "versionCode": 10005,
-  "versionName": "1.0.4",
-  "tagName": "autoupdate-10005",
-  "apkUrl": "https://github.com/JackoPeru/Studigram-updates/releases/download/autoupdate-10005/Studigram-1.0.4-android.apk",
-  "assetName": "Studigram-1.0.4-android.apk",
-  "assetSize": 4632864,
-  "sha256": "b04742653e66ac39081f37a75a61404268aab485ca83a1f256cf276ddd3005ef",
-  "publishedAt": "2026-10-28T01:12:41Z",
+  "versionCode": 10006,
+  "versionName": "1.0.5",
+  "tagName": "autoupdate-10006",
+  "apkUrl": "https://github.com/JackoPeru/Studigram-updates/releases/download/autoupdate-10006/Studigram-1.0.5-android.apk",
+  "assetName": "Studigram-1.0.5-android.apk",
+  "assetSize": 4632860,
+  "sha256": "647982c4b911030c4b1ca20e6f45c218e074f140bf16ecaacb593eb685721e52",
+  "publishedAt": "2026-10-28T02:14:34Z",
   "notes": [
-    "Riparato l'aggiornamento in-app (sintomo \"clicco e non succede niente\"):",
-    "Install nativo riscritto sul pattern UniNote: APK risolto dal DISCO (sopravvive ai reload della webview), verifica fail-closed al tap (package, versione, firma), intent di installazione e di impostazioni eseguiti sul main thread con FLAG_ACTIVITY_NEW_TASK (prima potevano fallire in silenzio sul telefono reale).",
-    "Ogni fallimento ora restituisce un messaggio leggibile in app (niente reject silenziosi).",
-    "Fallback nuovo in Profilo > Aggiornamenti: \"Scarica APK (browser)\" apre l'APK dal server nel browser e lo installa dalla notifica di download Android.",
-    "Verify: E2E emulatore 10004 -> 10005 (banner -> download -> verifica SHA -> installer -> installato)."
+    "1.0.5: stesso contenuto di 1.0.4 (fixed update flow) con versionCode incrementato per validare il flusso update reale 10005 -> 10006 sul dispositivo.",
+    "Install nativo sul pattern UniNote (APK da disco, verifica fail-closed al tap, intent su main thread).",
+    "Fallback \"Scarica APK (browser)\" in Profilo > Aggiornamenti."
   ]
 }
