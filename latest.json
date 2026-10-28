@@ -1,11 +1,11 @@
 {
-  "versionCode": 10009,
-  "versionName": "1.0.8-test",
+  "versionCode": 10008,
+  "versionName": "1.0.7",
   "tagName": "autoupdate-10008",
   "apkUrl": "https://github.com/JackoPeru/Studigram-updates/releases/download/autoupdate-10008/Studigram-1.0.7-android.apk",
   "assetName": "Studigram-1.0.7-android.apk",
   "assetSize": 4885829,
-  "sha256": "57a2abc69bae27fa0215a9d8a00a484c53ad4724fe128a94f23dc2c4f107c0ff",
+  "sha256": "57a2abc69bae27fa0215a9d8a00a484c53ad4724fe128a94f23dc2c4f107c0ae",
   "publishedAt": "2026-10-28T11:02:23Z",
   "notes": [
     "Aggiornamenti via canale GitHub (pattern UniNote): latest.json firmato ECDSA P-256",
@@ -16,5 +16,5 @@
     "Fallback browser per scaricare l'APK se l'installer nativo non si apre",
     "Toggle \"Controllo automatico\" in Profilo > Aggiornamenti"
   ],
-  "signature": "MEUCIA3Ai+r52nECjf8rkGO8Yhh02V2sO668eJpyKXMwUlEiAiEAnuvzO3+nS5c2doO4rkkAYeGtwhRTuvb7GVhrGStPyMg="
+  "signature": "MEUCIHaMCrs8dn3VABKkd+PACgO5596GkqhFPQh+eg3erBmfAiEAzRNtNw4iq3KPMjNEV3z8eHG2Db5aej1tg9cS0xh42GU="
 }
