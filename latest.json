@@ -1,15 +1,16 @@
 {
-  "versionCode": 10006,
-  "versionName": "1.0.5",
-  "tagName": "autoupdate-10006",
-  "apkUrl": "https://github.com/JackoPeru/Studigram-updates/releases/download/autoupdate-10006/Studigram-1.0.5-android.apk",
-  "assetName": "Studigram-1.0.5-android.apk",
-  "assetSize": 4632860,
-  "sha256": "647982c4b911030c4b1ca20e6f45c218e074f140bf16ecaacb593eb685721e52",
-  "publishedAt": "2026-10-28T02:14:34Z",
+  "versionCode": 10007,
+  "versionName": "1.0.6",
+  "tagName": "autoupdate-10007",
+  "apkUrl": "https://github.com/JackoPeru/Studigram-updates/releases/download/autoupdate-10007/Studigram-1.0.6-android.apk",
+  "assetName": "Studigram-1.0.6-android.apk",
+  "assetSize": 4632880,
+  "sha256": "10e12641d4a391a870b724b8c4399a774f385376ff4d00847157acf5bcae0401",
+  "publishedAt": "2026-10-28T08:11:11Z",
   "notes": [
-    "1.0.5: stesso contenuto di 1.0.4 (fixed update flow) con versionCode incrementato per validare il flusso update reale 10005 -> 10006 sul dispositivo.",
-    "Install nativo sul pattern UniNote (APK da disco, verifica fail-closed al tap, intent su main thread).",
-    "Fallback \"Scarica APK (browser)\" in Profilo > Aggiornamenti."
+    "1.0.6 (build finale del fix update):",
+    "Pulizia disco pattern UniNote: check() rimuove gli APK gia' installati (vc <= current), niente accumulo in updates/.",
+    "Permane: install da disco, verifica fail-closed al tap, intent su main thread, fallback \"Scarica APK (browser)\".",
+    "E2E finale 10006 -> 10007 su emulatore."
   ]
 }
