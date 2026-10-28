@@ -1,18 +1,17 @@
 {
-  "versionCode": 10004,
-  "versionName": "1.0.3",
-  "tagName": "autoupdate-10004",
-  "apkUrl": "https://github.com/JackoPeru/Studigram-updates/releases/download/autoupdate-10004/Studigram-1.0.3-android.apk",
-  "assetName": "Studigram-1.0.3-android.apk",
-  "assetSize": 4631028,
-  "sha256": "435485fc066ac05d6b8610bd47daff5fc946ab87253177e1faeb2c0340b7b27d",
-  "publishedAt": "2026-10-27T22:04:01Z",
+  "versionCode": 10005,
+  "versionName": "1.0.4",
+  "tagName": "autoupdate-10005",
+  "apkUrl": "https://github.com/JackoPeru/Studigram-updates/releases/download/autoupdate-10005/Studigram-1.0.4-android.apk",
+  "assetName": "Studigram-1.0.4-android.apk",
+  "assetSize": 4632864,
+  "sha256": "b04742653e66ac39081f37a75a61404268aab485ca83a1f256cf276ddd3005ef",
+  "publishedAt": "2026-10-28T01:12:41Z",
   "notes": [
-    "Icona app Studigram (S + play, viola) — prima il template Capacitor",
-    "Pagina creator: i 3 account sono raggiungibili (tap su autore o da Profilo)",
-    "Reel che si aprono da griglie Salvati/Profilo/creator (full-screen)",
-    "Pull-to-refresh sul feed",
-    "Fix: notifiche agente, stats profilo, paginazione topic, delete commenti, stato offline",
-    "Backend: upload cap 500MB, HEVC trascodato in H.264, query feed in singolo join"
+    "Riparato l'aggiornamento in-app (sintomo \"clicco e non succede niente\"):",
+    "Install nativo riscritto sul pattern UniNote: APK risolto dal DISCO (sopravvive ai reload della webview), verifica fail-closed al tap (package, versione, firma), intent di installazione e di impostazioni eseguiti sul main thread con FLAG_ACTIVITY_NEW_TASK (prima potevano fallire in silenzio sul telefono reale).",
+    "Ogni fallimento ora restituisce un messaggio leggibile in app (niente reject silenziosi).",
+    "Fallback nuovo in Profilo > Aggiornamenti: \"Scarica APK (browser)\" apre l'APK dal server nel browser e lo installa dalla notifica di download Android.",
+    "Verify: E2E emulatore 10004 -> 10005 (banner -> download -> verifica SHA -> installer -> installato)."
   ]
 }
