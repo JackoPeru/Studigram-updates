@@ -5,7 +5,7 @@
   "apkUrl": "https://github.com/JackoPeru/Studigram-updates/releases/download/autoupdate-10008/Studigram-1.0.7-android.apk",
   "assetName": "Studigram-1.0.7-android.apk",
   "assetSize": 4885829,
-  "sha256": "57a2abc69bae27fa0215a9d8a00a484c53ad4724fe128a94f23dc2c4f107c0ae",
+  "sha256": "57a2abc69bae27fa0215a9d8a00a484c53ad4724fe128a94f23dc2c4f107c0ff",
   "publishedAt": "2026-10-28T11:02:23Z",
   "notes": [
     "Aggiornamenti via canale GitHub (pattern UniNote): latest.json firmato ECDSA P-256",
@@ -15,5 +15,6 @@
     "Verifica APK: package + versione + SHA-256 + certificato installato al tap",
     "Fallback browser per scaricare l'APK se l'installer nativo non si apre",
     "Toggle \"Controllo automatico\" in Profilo > Aggiornamenti"
-  ]
+  ],
+  "signature": "MEUCIA3Ai+r52nECjf8rkGO8Yhh02V2sO668eJpyKXMwUlEiAiEAnuvzO3+nS5c2doO4rkkAYeGtwhRTuvb7GVhrGStPyMg="
 }
